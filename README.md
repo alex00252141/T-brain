@@ -6,3 +6,4 @@
 * git clone https://github.com/alex00252141/T-brain.git
 
 ### Cloud Storage bucket 設定
+* gsutil cp earthquakes.* gs://<YOUR-BUCKET>/earthquakes/
