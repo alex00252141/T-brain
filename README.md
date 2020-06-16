@@ -6,7 +6,8 @@
 * git clone https://github.com/alex00252141/T-brain.git
 
 ### Cloud Storage bucket 設定 ( 請提供給我 google account)
-> tbrain-tsmc/ data/ 前處理的資料
+> tbrain-tsmc/ data/ 前處理的資料 <br/>
+
 > tbrain-tsmc/ 模型訓練資料/ tbrain_train_final_0610.csv
 
 * 複製文件至共用資料夾 gsutil cp <file name> gs://tbrain-tsmc 
