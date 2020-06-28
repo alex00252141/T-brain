@@ -18,7 +18,7 @@
 * 複製文件至共用資料夾 gsutil cp <file name> gs://tbrain-tsmc 
 * 查看storage資料夾 gsutil ls gs://tbrain-tsmc 
 * Python讀檔案
-```
+``
 from google.cloud import storage
 import pandas as pd
 
@@ -29,7 +29,7 @@ blob = storage.Blob('模型訓練資料/tbrain_train_final_0610.csv', bucket)
 content = blob.download_as_string()
 train = pd.read_csv(BytesIO(content))
 train
-```
+``
 #### JSON Format: 
 ``
 [{'news_ID': 1,  
@@ -45,6 +45,4 @@ train
   {...},  
   
   {...}  
-  
-  ]
-``
+  ]``
