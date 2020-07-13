@@ -41,3 +41,22 @@ train
   {...}  
   ]
   ```
+  
+  #### Flask API: 
+  ```
+  目前Flask  有兩個東西
+  
+  1個是起web service  1 個是測試 Web service 
+  
+  起 web service 是 model/Flask API.ipynb 裡面要包括 
+  * news_cheat_model_ver_01.h5
+  * vocab.txt
+  
+  是測試 Web service是 model/Flask test.ipynb 
+  ```
+  
+  
+  
+  
+  
+  
