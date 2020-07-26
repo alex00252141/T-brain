@@ -12,6 +12,7 @@
 > tbrain-tsmc/ 模型訓練資料/ tbrain_train_final_0610.csv  
 
 > tbrain-tsmc/training_data/ tbrain_train_title_context.txt	
+> 預訓練模型 gs://tbrain-tsmc/training_data/Model_BIO
 
 
 #### 使用方式請參照 sample.ipynb
